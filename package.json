@@ -21,7 +21,8 @@
     "speaker"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "watchjs"
   ],
   "dependencies": {
     "chalk": "^0.5.0",
