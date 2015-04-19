@@ -17,7 +17,6 @@
     "test": "mocha"
   },
   "files": [
-    "app",
     "speaker"
   ],
   "keywords": [
