@@ -7,6 +7,7 @@ extending [watch.js website](http://watchjs.org) content (see [github repo](http
 
 Currently, supported generators are:
 
+ * ~~app - there is only one watch.js website, so this generator is not supported~~
  * speaker - adds a speaker to speaker.json file
 
 ## License
