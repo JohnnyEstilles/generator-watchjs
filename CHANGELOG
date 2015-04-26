@@ -1,3 +1,8 @@
+v0.0.2:
+  date: 2015-04-26
+  changes:
+    - Added `video` subgenerator without tests.
+    - Added changelog.
 v0.0.1:
   date: 2015-04-19
   changes:
