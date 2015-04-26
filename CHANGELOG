@@ -1,0 +1,5 @@
+v0.0.1:
+  date: 2015-04-19
+  changes:
+    - Initial version of watch.js website generator.
+    - Added `speaker` subgenerator without tests.
