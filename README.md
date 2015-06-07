@@ -12,4 +12,4 @@ Currently, supported generators are:
 
 ## License
 
-MIT
+[MIT](LICENSE)
