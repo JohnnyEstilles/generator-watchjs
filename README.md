@@ -1,7 +1,7 @@
-# generator-watchjs [![Build Status](https://secure.travis-ci.org/tkoomzaaskz/generator-watchjs.png?branch=master)](https://travis-ci.org/tkoomzaaskz/generator-watchjs)
+# generator-watchjs [![Build Status](https://secure.travis-ci.org/ducin/generator-watchjs.png?branch=master)](https://travis-ci.org/ducin/generator-watchjs)
 
 This repository holds a [Yeoman](http://yeoman.io) generator. It is used for
-extending [watch.js website](http://watchjs.org) content (see [github repo](https://github.com/tkoomzaaskz/watchjs.org)).
+extending [watch.js website](http://watchjs.org) content (see [github repo](https://github.com/ducin/watchjs.org)).
 
 ## (Sub)Generators
 
