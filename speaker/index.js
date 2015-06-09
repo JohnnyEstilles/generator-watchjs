@@ -39,7 +39,11 @@ module.exports = yeoman.generators.Base.extend({
     function str2json(value){ return JSON.stringify(value, null, 4); }
     var newSpeaker = this.options.speaker;
     this.log('Trying to add: ' + str2json(newSpeaker) + "\n");
-    var content = JSON.parse(fs.readFileSync(this.options.file, 'utf8'));
+    try {
+      var content = JSON.parse(fs.readFileSync(this.options.file, 'utf8'));
+    } catch(e) {
+      content = [];
+    }
     this.log('Reading ' + chalk.yellow.bold(this.options.file) + ' file, found ' + content.length + ' elements.');
 
     var sameIdElement = _.find(content, function(el){ return el.id === newSpeaker.id; });
